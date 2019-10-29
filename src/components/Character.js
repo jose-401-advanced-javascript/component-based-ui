@@ -1,18 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Character = (img, name, species) => (
+const Character = ({ img, name, species }) => (
   <dl>
     <dt>Name</dt>
     <dd>{name}</dd>
 
     <dt>Image</dt>
-    <dd>{img}</dd>
+    <img src={img} alt={name} />
 
     <dt>Species</dt>
     <dd>{species}</dd>
-
-
   </dl>
 );
 

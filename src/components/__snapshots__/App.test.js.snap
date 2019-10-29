@@ -3,6 +3,11 @@
 exports[`App component renders App 1`] = `
 <Fragment>
   <Header />
+  <Character
+    img="url"
+    name="Rick"
+    species="Human"
+  />
   <Footer />
 </Fragment>
 `;

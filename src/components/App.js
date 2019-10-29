@@ -8,7 +8,7 @@ const App = () => (
     <Header />
     <Character
       name="Rick"
-      img="url"
+      img="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
       species="Human" />
     <Footer />
   </>
