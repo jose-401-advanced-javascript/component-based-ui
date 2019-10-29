@@ -1,0 +1,11 @@
+.Character {
+  background-color: black;
+
+  dt {
+    color: white;
+  }
+
+  dd {
+    color: blue;
+  }
+}
