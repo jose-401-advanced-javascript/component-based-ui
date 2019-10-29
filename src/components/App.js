@@ -11,7 +11,7 @@ const App = () => (
       img="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
       species="Human" />
     <Character
-      name="Cornvelious Daneil"
+      name="Cornvelious Daniel"
       img="https://rickandmortyapi.com/api/character/avatar/150.jpeg"
       species="Gromflomite" />
     <Character
