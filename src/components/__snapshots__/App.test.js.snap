@@ -4,8 +4,53 @@ exports[`App component renders App 1`] = `
 <Fragment>
   <Header />
   <Character
-    img="url"
+    img="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
     name="Rick"
+    species="Human"
+  />
+  <Character
+    img="https://rickandmortyapi.com/api/character/avatar/150.jpeg"
+    name="Cornvelious Daniel"
+    species="Gromflomite"
+  />
+  <Character
+    img="https://rickandmortyapi.com/api/character/avatar/203.jpeg"
+    name="Lil B"
+    species="Snail Alien"
+  />
+  <Character
+    img="https://rickandmortyapi.com/api/character/avatar/363.jpeg"
+    name="Trandor"
+    species="Krootabulon"
+  />
+  <Character
+    img="https://rickandmortyapi.com/api/character/avatar/314.jpeg"
+    name="Shmlamantha Shmlicelli"
+    species="Human"
+  />
+  <Character
+    img="https://rickandmortyapi.com/api/character/avatar/88.jpeg"
+    name="Cynthia"
+    species="Human"
+  />
+  <Character
+    img="https://rickandmortyapi.com/api/character/avatar/261.jpeg"
+    name="Photography Cyborg"
+    species="Robot"
+  />
+  <Character
+    img="https://rickandmortyapi.com/api/character/avatar/320.jpeg"
+    name="Shnoopy Bloopers"
+    species="Alien"
+  />
+  <Character
+    img="https://rickandmortyapi.com/api/character/avatar/24.jpeg"
+    name="Armagheadon"
+    species="Cromulon"
+  />
+  <Character
+    img="https://rickandmortyapi.com/api/character/avatar/91.jpeg"
+    name="David Letterman"
     species="Human"
   />
   <Footer />

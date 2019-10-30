@@ -1,23 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import styles from './Character.css';
 
-const Character = ({ img, name, species }) => (
-  <dl>
-    <dt>Name</dt>
-    <dd>{name}</dd>
+export default class Character extends Component {
+  static propTypes = {
+    img: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    species: PropTypes.string.isRequired
+  };
 
-    <dt>Image</dt>
-    <img src={img} alt={name} />
+  render() {
+    const { img, species, name } = this.props;
 
-    <dt>Species</dt>
-    <dd>{species}</dd>
-  </dl>
-);
-
-Character.propTypes = {
-  img: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  species: PropTypes.string.isRequired
-};
-
-export default Character;
+    return (
+      <dl  className={styles.Character}>
+        <dt>Name</dt>
+        <dd>{name}</dd>
+  
+        <dt>Image</dt>
+        <img src={img} alt={name} />
+  
+        <dt>Species</dt>
+        <dd>{species}</dd>
+      </dl>
+    );
+  }
+}
